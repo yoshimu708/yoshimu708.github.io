@@ -5,7 +5,7 @@ body{
 
 header{
   position: relative;
-  height:350px;
+  height:400px;
   width:100%;
 }
 .name{
@@ -86,4 +86,32 @@ header li:hover{
 }
 .work a:hover{
   opacity:0.2;
+}
+
+.profile{
+  height:200px;
+  margin:80px 10%;
+}
+
+.profile h2{
+  font-weight: 100;
+
+}
+
+.profile-main{
+  height:400px;
+}
+
+.profile-info{
+  display: flex;
+  background-color: white;
+}
+.profile-info img{
+  border-radius:120px;
+  margin-left: 5%;
+}
+.profile-info p{
+  padding:15px 20px;
+  margin-left:10%;
+  background-color: #CCFFFF;
 }
