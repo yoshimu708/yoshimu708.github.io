@@ -1,13 +1,12 @@
 body{
   margin:0;
+  background-color: white;
 }
 
 header{
   position: relative;
-  background-color:white;
   height:350px;
   width:100%;
-  border-bottom: 1px solid black;
 }
 .name{
   position:absolute;
@@ -30,6 +29,10 @@ header  ul{
   background-color: #EEEEEE;
 }
 
+header a{
+  text-decoration: none;
+  color:black;
+}
 header li{
   padding:0 5px;
   margin:0 5px;
@@ -37,5 +40,50 @@ header li{
 }
 
 header li:hover{
+  opacity:0.2;
+}
+
+.works-main{
+  margin:0 10%;
+}
+
+.works-main h2{
+  font-weight: 100;
+}
+
+.works{
+  height:500px;
+  list-style: none;
+  margin:0;
+  padding:0;
+  background-color: lightgray;
+
+
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+}
+
+.work{
+  margin:10px 10%;
+  background-color: #008080;
+}
+
+.work p{
+  display:none;
+  margin:0;
+  color:white;
+  text-align: center;
+}
+
+.work img{
+  display: inline-block;
+  margin:5%;
+}
+
+.work a{
+  text-decoration: none;
+}
+.work a:hover{
   opacity:0.2;
 }
