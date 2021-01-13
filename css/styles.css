@@ -112,6 +112,8 @@ header li:hover{
   padding:15px 20px;
   margin-left:10%;
   background-color: #CCFFFF;
+  width:320px;
+  height:350px;
 }
 
 footer{
