@@ -15,4 +15,11 @@
     document.getElementById("furima-sent").style.display="none";
   },false);
 
+  document.getElementById("games").addEventListener('mouseover',()=>{
+    document.getElementById("games-sent").style.display="block";
+  },false);
+  document.getElementById("games").addEventListener('mouseout',()=>{
+    document.getElementById("games-sent").style.display="none";
+  },false);
+
 }
