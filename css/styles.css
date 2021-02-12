@@ -116,6 +116,14 @@ header li:hover{
   height:350px;
 }
 
+#git{
+  color:black;
+}
+
+#original{
+  color:black;
+}
+
 footer{
   height:100px;
   background-color: #EEEEEE;
