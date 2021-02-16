@@ -54,15 +54,11 @@ header li:hover{
 }
 
 .works{
-  height:750px;
+  height:800px;
   list-style: none;
   padding:0;
   background-color: lightgray;
   border:1px solid white;
-
-  /* display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 250px; */
 }
 
 .work{
@@ -79,7 +75,7 @@ header li:hover{
 
 .work img{
   display: inline-block;
-  margin:5%;
+  margin: 10%;
 }
 
 .work a{
@@ -142,7 +138,11 @@ header li:hover{
   margin-left:10%;
   background-color: #CCFFFF;
   width:320px;
-  height:350px;
+  height:320px;
+}
+
+.profile-info a{
+  display:block;
 }
 
 #git{
@@ -160,7 +160,7 @@ footer{
 
 .contact{
   border:1px solid black;
-  margin:0 10%;
+  margin:5px 10%;
 }
 
 footer h3{
