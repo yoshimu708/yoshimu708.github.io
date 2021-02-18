@@ -44,6 +44,77 @@ header li:hover{
   opacity:0.2;
 }
 
+.profile{
+  margin:80px 10%;
+}
+
+.profile h2{
+  font-weight: 100;
+
+}
+
+.profile-main{
+}
+
+.profile-info{
+  display: flex;
+  background-color: white;
+}
+.profile-info img{
+  border-radius:150px;
+  margin-left: 5%;
+}
+.profile-info p{
+  padding:15px 20px;
+  margin-left:10%;
+  background-color: #CCFFFF;
+  width:320px;
+}
+
+.profile-info a{
+  display:block;
+}
+
+
+.info{
+  border:1px solid black;
+  margin:20px auto 0;
+  width:90%;
+}
+
+.menu {
+  background-color: lightgray;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.menu:hover,
+.menu:active,
+.menu.is-active {
+  background: lightskyblue;
+}
+
+.contents {
+  text-align: center;
+  text-decoration:underline;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.contents.is-open {
+  padding: 10px;
+  line-height: normal;
+  height: auto;
+  opacity: 1;
+}
+
+
 .works-main{
   margin:10% 10%;
 }
@@ -65,6 +136,14 @@ header li:hover{
   margin:30px 5% 0 5%;
   width:90%;
   display:flex;
+}
+
+#git{
+  color:black;
+}
+
+#original{
+  color:black;
 }
 
 .work-image{
@@ -111,84 +190,6 @@ header li:hover{
   padding:0 2px;
 }
 
-.profile{
-  /* height:1000px; */
-  margin:80px 10%;
-}
-
-.profile h2{
-  font-weight: 100;
-
-}
-
-.profile-main{
-}
-
-.profile-info{
-  display: flex;
-  background-color: white;
-}
-.profile-info img{
-  border-radius:150px;
-  margin-left: 5%;
-}
-.profile-info p{
-  padding:15px 20px;
-  margin-left:10%;
-  background-color: #CCFFFF;
-  width:320px;
-}
-
-.profile-info a{
-  display:block;
-}
-
-#git{
-  color:black;
-}
-
-#original{
-  color:black;
-}
-
-.info{
-  border:1px solid black;
-  margin:20px auto 0;
-  width:90%;
-}
-
-.menu {
-  background-color: lightgray;
-  color: black;
-  font-size: 18px;
-  padding: 10px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
-}
-.menu:hover,
-.menu:active,
-.menu.is-active {
-  background: lightskyblue;
-}
-
-
-.contents {
-  text-align: center;
-  text-decoration:underline;
-  line-height: 0;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition-duration: 0.4s;
-}
-
-.contents.is-open {
-  padding: 10px;
-  line-height: normal;
-  height: auto;
-  opacity: 1;
-}
 
 footer{
   height:100px;
