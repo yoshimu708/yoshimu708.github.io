@@ -7,17 +7,46 @@
   </head>
   <body>
     <header id="top">
-     <h1 class="name" id="">yoshimura naoya</h1>
+     <h1 class="name" id="">yoshimura naoya<br>
+      Portfolio site</h1>
      <ul>
        <li><a href="#top">top</a></li>
-       <li><a href="#product">product</a></li>
        <li><a href="#profile">profile</a></li>
+       <li><a href="#product">product</a></li>
      </ul>
     </header>
-    <section class="works-main">
-      <h2 id="product">Product</h2>
+    <section class="profile" id="profile">
+      <h2 >Profile</h2>
+      <div class="profile-main">
+        <div class="profile-info">
+          <img src="img/IMG_0945.jpeg" alt="プロフィール写真" width="300px" height="450px">
+          <p>name : 芳村直哉（ヨシムラナオヤ）<br>age : 23 / from : 三重県<br>career<br>
+            2020.3 : 中京大学卒業<br>2020.4〜9 : 不動産仲介営業として働く<br>2020.10 : テックキャンプ転職コース入学<br>2021.1 : 就職活動スタート<br>【テックキャンプでの学習経験】
+              <br>-フロント：HTML/CSS、JavaScript(jQuery,Ajax)
+              <br>-言語：Ruby
+              <br>-フレームワーク：Ruby on Rails
+              <br>-ツール：GitHub、Slack
+              <br>-テスト：Rspec
+              <br>-DB：MySQL
+              <br>-インフラ：AWS (S3,EC2)
+            </p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="accordion">
+          <p class="menu open-menu">プログラミングを始めたきっかけ</p>
+          <div class="contents">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </div>
+          <p class="menu open-menu">メニュー2</p>
+          <div class="contents">コンテンツ2</div>
+          <p class="menu open-menu">メニュー3</p>
+          <div class="contents">コンテンツ3</div>
+        </div>
+        </div>
+      </section>
+    <section class="works-main" id="product">
+      <h2 >Product</h2>
       <a  id="git" href="https://github.com/yoshimu708/task32150.git">GithubURL</a>
-            
      <ul class="works">
        <li class="work">
          <div class="work-image">
@@ -25,14 +54,14 @@
              <img src="img/kaigi.jpg" alt="task共有管理アプリ" width="200px">
             </a>
          </div>
-         <div class="sentence">
+         <div class="details">
           <a id="task" href="https://task32150.herokuapp.com/">
            <h2 id="task-sent">task共有管理アプリ</h2>
            </a>
            
            <p>オリジナルアプリ<br>実装:登録機能・チャット機能・お気に入り機能・ユーザー機能・ルーム作成機能・テスト<br>言語:html/css/js/ruby on rails<br>デプロイ:Heroku</p>
            <a id="original" href="https://github.com/yoshimu708/task32150/blob/master/README.md
-            "> オリジナルアプリ説明文URL</a>
+            "> オリジナルアプリ README URL</a>
          </div>
        </li>
        <li class="work">
@@ -41,7 +70,7 @@
             <img src="img/flea-market.jpg" alt="furimaアプリ" width="200px" >
            </a>
         </div>
-        <div class="sentence">
+        <div class="details">
           <a  id="furima" href="http://18.180.128.181/">
             <h2 id="furima-sent">furimaアプリ</h2>
           </a>
@@ -55,7 +84,7 @@
              <img src="img/games.png" alt="" width="200px">
             </a>
          </div>
-         <div class="sentence">
+         <div class="details">
           <a  id="games" href=" https://yoshimu708.github.io/smallgames/">
            <h2 id="games-sent">small games</h2>
            </a>
@@ -65,18 +94,7 @@
        </li>
      </ul>
     </section>
-    <section class="profile" id="profile">
-      <h2 id="product">Profile</h2>
-      <div class="profile-main">
-        <div class="profile-info">
-          <img src="img/IMG_0945.jpeg" alt="プロフィール写真" width="250px" height="350px">
-          <p>name : 芳村直哉（ヨシムラナオヤ）<br>age : 23 / from : 三重県<br>hobby : soccer/guitar<br>career<br>
-            2020.3 : 中京大学卒業<br>2020.4 : 入社<br>2020.9 : 新卒入社企業退職<br>2020.10 : テックキャンプ転職コース入学<br>2021.1 : 就職活動スタート<br><br> html / css / javascript / ruby on rails
-            </p>
-           
-        </div>
-      </div>
-    </section>
+   
     <footer>
       <div class="contact">
         <h3>contact</h3>
@@ -85,8 +103,8 @@
       </div>
       <ul>
         <li><a href="#top">top</a></li>
-        <li><a href="#product">product</a></li>
         <li><a href="#profile">profile</a></li>
+        <li><a href="#product">product</a></li>
       </ul>
     </footer>
     <script src="js/main.js"></script>

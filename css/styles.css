@@ -86,14 +86,14 @@ header li:hover{
   opacity:0.2;
 }
 
-.sentence{
+.details{
   width:70%;
   margin-left:10px;
   border:1px solid black;
 
 }
 
-.sentence h2{
+.details h2{
   font-size:20px;
   margin: 5px 0 0 5px;
   text-align: center;
@@ -102,17 +102,17 @@ header li:hover{
   height:30px;
 }
 
-.sentence a{
+.details a{
   color:black;
 }
-.sentence p{
+.details p{
   height:110px;
   font-size:13px;
   padding:0 2px;
 }
 
 .profile{
-  height:400px;
+  /* height:1000px; */
   margin:80px 10%;
 }
 
@@ -122,7 +122,6 @@ header li:hover{
 }
 
 .profile-main{
-  height:400px;
 }
 
 .profile-info{
@@ -130,7 +129,7 @@ header li:hover{
   background-color: white;
 }
 .profile-info img{
-  border-radius:120px;
+  border-radius:150px;
   margin-left: 5%;
 }
 .profile-info p{
@@ -138,7 +137,6 @@ header li:hover{
   margin-left:10%;
   background-color: #CCFFFF;
   width:320px;
-  height:320px;
 }
 
 .profile-info a{
@@ -151,6 +149,45 @@ header li:hover{
 
 #original{
   color:black;
+}
+
+.info{
+  border:1px solid black;
+  margin:20px auto 0;
+  width:90%;
+}
+
+.menu {
+  background-color: lightgray;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.menu:hover,
+.menu:active,
+.menu.is-active {
+  background: lightskyblue;
+}
+
+
+.contents {
+  text-align: center;
+  text-decoration:underline;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.contents.is-open {
+  padding: 10px;
+  line-height: normal;
+  height: auto;
+  opacity: 1;
 }
 
 footer{
