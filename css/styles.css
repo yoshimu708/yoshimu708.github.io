@@ -5,7 +5,7 @@ body{
 
 header{
   position: relative;
-  height:400px;
+  height:500px;
   width:100%;
   border:1px solid black;
 }
@@ -66,9 +66,9 @@ header li:hover{
 }
 .profile-info p{
   padding:15px 20px;
-  margin-left:10%;
-  background-color: #CCFFFF;
-  width:320px;
+  margin-left:8%;
+  background-color: lightskyblue;
+  width:350px;
 }
 
 .profile-info a{
@@ -77,8 +77,8 @@ header li:hover{
 
 
 .info{
-  border:1px solid black;
-  margin:20px auto 0;
+  border:3px dotted black;
+  margin:40px auto 0;
   width:90%;
 }
 
@@ -98,7 +98,7 @@ header li:hover{
 }
 
 .contents {
-  text-align: center;
+  text-align: left;
   text-decoration:underline;
   line-height: 0;
   height: 0;
